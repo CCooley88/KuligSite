@@ -1,0 +1,139 @@
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.th, td {
+    padding: 50px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-left: 20px;    
+}
+.Column {
+    display: table-cell;
+    padding:5px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+.ListBuffer{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.profile-image {
+    width: 188px;
+    height: 263px;
+    background-image: url(/Images/KuligPhoto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    color:peru;
+}
+
+.NCFMain-image {
+    width: 600px;
+    height: 305px;
+    background-image: url(../Images/NCFMain.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.NewClient-image {
+    width: 258px;
+    height: 302px;
+    background-image: url(../Images/NewClient.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.NLC-image {
+    width: 250px;
+    height: 269px;
+    background-image: url(../Images/NLC.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.image-border-wrap {
+    max-width: 100%;
+    padding: 1rem;
+    position: relative;
+    background-color:#3f4c75;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.code-image {
+    width: 1920px;
+    height: 1280px;
+    background-image: url(../Images/CodePhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ /* The side navigation menu */
+ .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #3f4c75;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #3f4c75;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  } 
