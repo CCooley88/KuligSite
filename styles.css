@@ -21,6 +21,16 @@ li{
     align-items: center;
 }
 
+p{
+  margin-top: 5px;
+}
+
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
 .ListBuffer{
     margin-right:10px;
     margin-left:10px;
@@ -39,7 +49,7 @@ li{
 .NCFMain-image {
     width: 600px;
     height: 305px;
-    background-image: url(../Images/NCFMain.PNG);
+    background-image: url(https://ccooley88.github.io/KuligSite_VSCode/Images/NCFMain.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px;
@@ -48,7 +58,7 @@ li{
 .NewClient-image {
     width: 258px;
     height: 302px;
-    background-image: url(../Images/NewClient.PNG);
+    background-image: url(https://ccooley88.github.io/KuligSite_VSCode/Images/NewClient.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px;
@@ -57,7 +67,7 @@ li{
 .NLC-image {
     width: 250px;
     height: 269px;
-    background-image: url(../Images/NLC.PNG);
+    background-image: url(https://ccooley88.github.io/KuligSite_VSCode/Images/NLC.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px;
@@ -75,7 +85,7 @@ li{
 .code-image {
     width: 1920px;
     height: 1280px;
-    background-image: url(../Images/CodePhoto.jpg);
+    background-image: url(https://ccooley88.github.io/KuligSite_VSCode/Images/CodePhoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
